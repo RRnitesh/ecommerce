@@ -1,0 +1,27 @@
+.leftbox {
+  border: 2px solid black;
+  width: 20vw;
+  height: 70vw;
+}
+.box {
+  border: 2px solid black;
+}
+.body {
+  display: flex;
+}
+.details {
+  border: 2px solid blue;
+  margin: 3px;
+  padding: 5px;
+}
+.item-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}

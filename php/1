@@ -1,0 +1,37 @@
+ugir jxal hezr wvjv
+
+error_log("Debug message: " . $_SESSION['email'], 3, "C:/xampp/php/logs/custom_log_file.log");
+
+$_SESSION['name'], $_SESSION['id']
+
+$clientId = "ASYXzt6gO61oDJFdNokv2vgYOOaSTJlkdD9MEPO0OFl_K9pHdDgoJHyWy4LlbmcsUJSgt_UpWCuU9__u";
+$clientSecret = "ED3CZRKf-7XYvqqF2ELPWEpui43p6BiYB7jwasg48SHAIlAtxUyQc-CFkDkdAqjhn78sr-8hFSbUL3us";
+
+
+
+if ($password !== $row['password']) {
+  adminLoginAPI(false, "Invalid username or password");
+}
+
+$username = "niteshrestha00@gmail.com";
+$password = 12345;
+
+// Show OTP modal if admin
+            // if (loginForm.getAttribute("action").includes("adminLogin.php")) {
+            //   const otpModalEl = document.getElementById("otpModal");
+            //   if (otpModalEl) {
+            //     const otpModal = new bootstrap.Modal(otpModalEl, {
+            //       backdrop: "static",
+            //       keyboard: false,
+            //     });
+            //     otpModal.show();
+            //   }
+            // }
+
+            $mail->Username = 'companyan999@gmail.com';            // Your Gmail address
+    $mail->Password = 'ugir jxal hezr wvjv';             // Your Gmail password (consider using App Passwords)
+
+// // Set session variables
+// $_SESSION['name'] = $row['name'];
+// $_SESSION['id'] = $row['id'];
+// $_SESSION['is_admin'] = true;

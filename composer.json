@@ -1,0 +1,13 @@
+{
+    "name": "nitesh/e-commerce",
+    "description": "project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "nitesh"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

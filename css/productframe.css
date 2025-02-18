@@ -1,0 +1,67 @@
+.product-frame {
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.product-image {
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28A745;
+    margin: 5px 0;
+}
+
+.original-price {
+    font-size: 16px;
+    color: #999999;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.discount {
+    font-size: 14px;
+    color: #DC3545;
+    font-weight: bold;
+}
+
+.add-to-btn {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-btn:hover {
+    background-color: #0056b3;
+}
+
+#body{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 5px;
+}

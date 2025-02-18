@@ -1,0 +1,41 @@
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 0px; /* Space between items */
+}
+
+.item {
+  width: 100%; /* Fixed width */
+  height: 47vh; /* Fixed height */
+  border: 2px solid #ddd; /* Reduced border thickness */
+  padding: 10px;
+  text-align: center;
+  overflow: hidden; /* Ensures no overflow */
+}
+
+.item img {
+  width: 100%; /* Scales the image to fit the container's width */
+  height: 200px; /* Fixed height for the image container */
+  object-fit: contain; /* Ensures the full image is visible without cropping */
+  margin-bottom: 10px; /* Adds spacing below the image */
+  background-color: #f0f0f0; /* Optional: adds a background for contrast */
+}
+
+.item h3 {
+  font-size: 1rem; /* Slightly smaller heading */
+  margin: 5px 0; /* Reduced spacing */
+}
+
+.item p {
+  font-size: 0.9rem; /* Smaller text for descriptions */
+  margin: 5px 0;
+}
+
+/* .welcome-message {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #4caf50; 
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+} */
+
